@@ -197,7 +197,7 @@ button:hover {
 
 .search-button {
     position: absolute;
-    right: 10px;
+    right: 25px;
     top: 50%;
     transform: translateY(-50%);
     background: rgb(242, 242, 242);

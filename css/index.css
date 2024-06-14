@@ -257,7 +257,7 @@ p {
     margin-left: 50px;
     flex-wrap: wrap;
     overflow: hidden;
-    justify-content: center;
+    
 }
 
 .card {
@@ -414,6 +414,7 @@ p {
         margin-left: 45px;
         flex-direction: column;
         align-self: center;
+        justify-content: center;
         
     }
 }

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>collection view page</title>
+    <link rel="stylesheet" href="./css/t-shirt-page1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo"><a href="./index.html"><img class="logo-left" src="./image/image 26.png" alt="logo"></a></div>
+        <div class="menu"> 
+         <a href="./index.html"><img src="./image/fluent_home-24-filled.png" alt="home"></a>
+         <a href="second.html"><img src="./image/Group 48095750.png" alt=""></a>
+         <a href="#"><img src="./image/Group 48095751.png" alt=""></a>
+         <a href="#"><img src="./image/Group 48095752.png" alt=""></a>
+        </div>        
+     </div>
+
+     <!-- Top Navigation Menu -->
+<div class="topnav" id="topnav" style=" justify-content: space-between;">
+    <a href="./index.html" style="margin-right: 4%;">
+      <img class="logo-left" src="./image/image 26.png" alt="logo"></a>
+    <div class="mylink" id="myLinks" >
+        <a href="./index.html"><img src="./image/fluent_home-24-filled.png" alt="home"></a>
+        <a href="second.html"><img src="./image/Group 48095750.png" alt=""></a>
+        <a href="#"><img src="./image/Group 48095751.png" alt=""></a>
+        <a href="#"><img src="./image/Group 48095752.png" style="margin-right: 4%;" alt=""></a>
+    </div>
+    <a href="javascript:void(0);"  class="icon" onclick="myFunction()"><i class="bi bi-list"></i> </a>
+  </div>
+
+
+    
+    <div class="main-content">
+        <h1>List of Black T-Shirt</h1>
+        <div class="quick-selection">
+            <button class="select-button">Recommended</button>
+            <button class="select-button">Lower Price</button>
+            <button class="select-button">Top Rated</button>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-image1">
+                    <img src="./image/Ellipse 8.png" class="card-logo" alt="">
+                    <p class="card-rating"><span style="display: flex;">4.4 <img
+                                style="width: auto; height: 12px; margin: auto; padding-left: 2px;"
+                                src="./image/ic_round-star.png" alt=""></span></p>
+                    <span class="card-type">Jump Cuts</span>
+                    <p class="card-title">Men Printed Polo Neck Polyester Black T-Shirt</p>
+                    <p class="card-price">₹259</p>
+                    <button class="shop-now" onclick="location.href = './lastpage.html';">shop now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image2">
+                    <img src="./image/flipcart.png" class="card-logo" alt="">
+                    <p class="card-rating"><span style="display: flex;">4.4 <img
+                                style="width: auto; height: 12px; margin: auto; padding-left: 2px;"
+                                src="./image/ic_round-star.png" alt=""></span></p>
+                    <span class="card-type">AVEJO</span>
+                    <p class="card-title">Men Checkered Round Neck Cotton Blend Black T-Shirt</p>
+                    <p class="card-price">₹419</p>
+                    <button class="shop-now" onclick="location.href = './lastpage.html';">shop now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image3">
+                    <img src="./image/Ellipse 8 (1).png" class="card-logo" alt="">
+                    <p class="card-rating"><span style="display: flex;">4.4 <img
+                                style="width: auto; height: 12px; margin: auto; padding-left: 2px;"
+                                src="./image/ic_round-star.png" alt=""></span></p>
+                    <span class="card-type">EyeBogler</span>
+                    <p class="card-title">Men Printed Polo Neck Polyester Black T-Shirt</p>
+                    <p class="card-price">₹254</p>
+                    <button class="shop-now" onclick="location.href = './lastpage.html';">shop now</button>
+                </div>
+            </div>
+        </div>
+        <div class="show-more">
+            <button class="more"><img style="margin: auto; height: 17px; filter: invert(100%);  "
+                    src="./image/star.svg" alt="">
+                <h6 style="margin: auto; font-size: 12px; font-weight: 100;">Shop More</h6>
+            </button>
+        </div>
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Ask me anything...">
+            <button class="search-button"><img style="margin: auto; height: 17px;" src="./image/star.svg" alt="">
+                <h6 style="margin: auto; font-size: 15px; font-weight: 300;">Shop</h6>
+            </button>
+        </div>
+        <div class="message" id="message"></div>
+    </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

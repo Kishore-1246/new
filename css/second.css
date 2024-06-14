@@ -1,0 +1,75 @@
+h4 {
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.logo-left {
+    width: 40px;
+    height: 35px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.search-bar-2 {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    margin-top: 55vh;
+}
+
+
+@media (max-width:900px) {
+    
+    .card {
+        background-color: #343434;
+        border-radius: 20px;
+        padding: 20px;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 0.3s;
+        position: relative;
+    }
+    .search-bar-2 {
+        position: relative;
+        width: 80%;
+        margin: auto;
+        margin-top: 50vh;
+    }
+    .search-bar {
+        width: 90%;
+        margin-top: 400px;
+    }
+
+}
+
+@media (max-width:700px) {
+
+    .search-bar-2 {
+        position: relative;
+        width: 80%;
+        margin: auto;
+        margin-top: 50vh;
+    }
+    h4{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:435px) {
+
+    .search-bar-2 {
+        position: relative;
+        width: 80%;
+        margin: auto;
+        margin-top: 50vh;
+    }
+}
+
+
+
+
+
+
+

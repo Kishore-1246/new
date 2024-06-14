@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome page</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo"><a href="./index.html"><img class="logo-left" src="./image/image 26.png" alt="logo"></a></div>
+        <div class="menu"> 
+         <a href="./index.html"><img src="./image/fluent_home-24-filled.png" alt="home"></a>
+         <a href="second.html"><img src="./image/Group 48095750.png" alt=""></a>
+         <a href="#"><img src="./image/Group 48095751.png" alt=""></a>
+         <a href="#"><img src="./image/Group 48095752.png" alt=""></a>
+        </div>        
+     </div>
+
+     <!-- Top Navigation Menu -->
+<div class="topnav" id="topnav" style=" justify-content: space-between;">
+    <a href="./index.html" style="margin-right: 4%;">
+      <img class="logo-left" src="./image/image 26.png" alt="logo"></a>
+    <div class="mylink" id="myLinks" >
+        <a href="./index.html"><img src="./image/fluent_home-24-filled.png" alt="home"></a>
+        <a href="second.html"><img src="./image/Group 48095750.png" alt=""></a>
+        <a href="#"><img src="./image/Group 48095751.png" alt=""></a>
+        <a href="#"><img src="./image/Group 48095752.png" style="margin-right: 4%;" alt=""></a>
+    </div>
+    <a href="javascript:void(0);"  class="icon" onclick="myFunction()"><i class="bi bi-list"></i> </a>
+  </div>
+
+    
+    <div class="main-content">
+        <h1>Hello, John</h1>
+        <p>How can I help you today?</p>
+        <div class="message" id="message" style="margin-left: 110px;margin-top: 90px;font-size: x-large; color: dimgray;" ></div>
+        <div class="card-container" id="card-container">
+            <div class="card">
+                <div class="card-title">Trending smart watches 2024</div>
+                <div class="card-action"><img class="card-icon" src="./image/Frame (1).png"  alt=""></div>
+            </div>
+            <div class="card">
+                
+                <div class="card-title">Portable vacuum cleaner</div>
+                <div class="card-action"><img class="card-icon" src="./image/Frame.png" alt=""></div>
+            </div>
+            <div class="card">
+                
+                <div class="card-title">Kurti sets under 600</div>
+                <div class="card-action"><img class="card-icon" src="./image/Vector.png" alt=""></div>
+            </div>
+        </div>
+
+         
+        <div class="search-bar"> 
+            <input type="text" class="search-input" placeholder="Ask me anything..." oninput="handleSearch()" onclick="handleSearchClick()" >
+            <button class="search-button"><img style="margin: auto; height: 17px;" src="./image/star.svg" alt=""> <h6 style="margin: auto; font-size: 15px; font-weight: 350;">Shop</h6> </button>
+        </div>
+    </div>
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>

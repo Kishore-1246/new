@@ -171,11 +171,17 @@ button:hover {
 }
 
 .search-bar {
-    position: relative;
     width: 80%;
     margin: auto;
-    margin-bottom: 5%;
-
+    width: 80%;
+    position: fixed;
+    bottom: 20px;
+    left: 54%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 .search-input {

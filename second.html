@@ -49,15 +49,10 @@
         <!-- /*main content */ -->
         <div class="main-content">
             <h4>Making an experience with your though!</h4>
-            <div class="search-bar">
-                <input type="text" class="search-input"
-                    placeholder="Ask me anything...">
-                <button class="search-button"><img
-                        style="margin: auto; height: 17px;"
-                        src="./image/star.svg" alt> <h6
-                        style="margin: auto; font-size: 15px; font-weight: 350;">Shop</h6>
-                </button>
-            </div>
+             <div class="search-bar"> 
+            <input type="text" class="search-input" placeholder="Ask me anything..." oninput="handleSearch()" onclick="handleSearchClick()" >
+            <button class="search-button"><img style="margin: auto; height: 17px;" src="./image/star.svg" alt=""> <h6 style="margin: auto; font-size: 15px; font-weight: 350;">Shop</h6> </button>
+        </div>
             <div class="message" id="message"></div>
         </div>
         <script>

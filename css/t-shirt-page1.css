@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     font-family: "Montserrat", sans-serif;
     background-color: #000000;
@@ -14,6 +15,7 @@ body {
     margin: 0;
     padding: 10px;
 }
+
 .sidebar {
     width: 88px;
     background-color: #000000;
@@ -56,6 +58,7 @@ body {
     margin-top: 1px;
     margin-bottom: 1px;
 }
+
 .main-content {
     flex-grow: 0.1;
     padding-top: 10px;
@@ -182,6 +185,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     padding: 10px;
+
 }
 
 .search-input {
@@ -197,7 +201,7 @@ button:hover {
 
 .search-button {
     position: absolute;
-    right: 25px;
+    right: 15px;
     top: 50%;
     transform: translateY(-50%);
     background: rgb(242, 242, 242);
@@ -207,7 +211,7 @@ button:hover {
     font-size: 15px;
     cursor: pointer;
     padding: 8px 18px;
-    align-items: center;    
+    align-items: center;
     display: flex;
     justify-content: center;
 }
@@ -450,6 +454,11 @@ img {
         background-color: #04AA6D;
         color: white;
     }
+    .more {       
+        height: 40px;
+        margin-top: 190px;
+    }
+
 
 }
 
@@ -465,8 +474,9 @@ img {
         font-size: 30px;
         margin-top: 25px;
     }
-    .mylink .img{
-        height:6px;
+
+    .mylink .img {
+        height: 6px;
     }
 }
 
@@ -481,20 +491,24 @@ img {
         border-radius: 10px;
         width: 180px;
         height: 280px;
-        display: inline-flex; 
+        display: inline-flex;
     }
-    .card-rating{
+
+    .card-rating {
         top: 140px;
     }
-    .card-type{
+
+    .card-type {
         top: 170px;
     }
-    .card-title{
-        top:180px;
+
+    .card-title {
+        top: 180px;
         font-size: 13px;
     }
-    .card-price{
-        top:220px ;
+
+    .card-price {
+        top: 220px;
         left: 0px;
     }
 }
@@ -509,41 +523,50 @@ img {
         margin-bottom: 20px;
         position: static;
     }
+
     .sidebar a {
         font-size: 20px;
         margin: 0 20px;
     }
+
     .main-content {
         margin-left: 0;
         width: 100%;
     }
+
     .card {
         background-color: #2c2c3e;
         border-radius: 10px;
         width: 180px;
         height: 280px;
-        display: inline-flex; 
+        display: inline-flex;
     }
-    .card-rating{
+
+    .card-rating {
         top: 140px;
     }
-    .card-type{
+
+    .card-type {
         top: 170px;
     }
-    .card-title{
-        top:180px;
+
+    .card-title {
+        top: 180px;
         font-size: 13px;
     }
-    .card-price{
-        top:220px ;
+
+    .card-price {
+        top: 220px;
         left: 0px;
     }
+
     .search-bar {
         width: 90%;
     }
 }
+
 @media (max-width:800px) {
-    
+
     .card-container {
         flex-direction: column;
         justify-content: space-between;
@@ -560,23 +583,29 @@ img {
         width: 170px;
         height: 250px;
     }
-    .card-rating{
+
+    .card-rating {
         top: 110px;
     }
-    .card-type{
+
+    .card-type {
         top: 135px;
         font-size: 10px;
     }
-    .card-title{
-        top:140px;
+
+    .card-title {
+        top: 140px;
     }
-    .card-price{
-        top:190px ;
+
+    .card-price {
+        top: 190px;
     }
-    .more{
-        margin-top: 100px;
+
+    .more {
+        margin-top: 80 px;
     }
-    .shop-now{
+
+    .shop-now {
         width: 50%;
         font-size: 10px;
     }
@@ -588,7 +617,7 @@ img {
         align-items: center;
         /* justify-content: space-between; */
         display: flex;
-        height: 60%;
+        height: 40%;
         margin-top: 30px;
         margin-left: 5%;
         margin-right: 50px;
@@ -602,36 +631,44 @@ img {
         width: 150px;
         height: 250px;
     }
-    .card-rating{
+
+    .card-rating {
         top: 110px;
         font-size: 8px;
     }
-    .card-type{
+
+    .card-type {
         top: 135px;
         font-size: 8px;
     }
-    .card-title{
-        top:140px;
+
+    .card-title {
+        top: 140px;
         font-size: 8px;
     }
-    .card-price{
-        top:150px ;
+
+    .card-price {
+        top: 150px;
         padding-right: 20px;
     }
-    .more{
-        margin-top: 100px;
+
+    .more {
+        margin-top: 70px;
     }
-    .shop-now{
+
+    .shop-now {
         width: 40%;
         font-size: 8px;
     }
-    h1{
+
+    h1 {
         font-size: 20px;
         margin-top: 10px;
     }
-    
+
 
 }
+
 @media (max-width:550px) {
     .quick-selection {
         display: flex;
@@ -639,5 +676,9 @@ img {
         gap: 10px;
         margin-top: 10px;
         margin-left: 20px;
+        width: 200px;
+    }
+    .more{
+        margin-top: 60px;
     }
 }
